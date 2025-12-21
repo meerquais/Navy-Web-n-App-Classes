@@ -1,0 +1,110 @@
+/* h1{
+    color: red;
+} */
+
+/* .unorderList{ */
+    /* list-style-type: disc;
+    list-style-position: inside; */
+    /* list-style: lower-alpha; */
+/* } */
+
+/* 
+table{
+    width: 750px;
+    margin: 0 auto;
+}
+
+th{
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    text-align: left;
+}
+td{
+    background-color: rgb(203, 199, 199);
+    text-align: center;
+    padding: 6px;
+}
+tr:hover{
+    background-color: gray !important;
+}
+td:hover{
+    background-color: rgb(185, 181, 181);
+} */
+
+/* table{
+    empty-cells: hide;
+    border-collapse: collapse;
+    border-spacing: 10px;
+}
+td{
+    border: 1px solid black;
+} */
+
+/* .inp{
+    border: none;
+    color: red;
+    font-size: 18px;
+    padding: 7px;
+    background-color: peachpuff;
+    border-radius: 10px;
+}
+.inp:focus{
+    outline: none;
+} */
+
+/* button{
+
+
+    border: none;
+    background-color: rgb(77, 134, 215);
+    color: white;
+    padding: 6px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+       background-color: rgb(30, 75, 138);
+
+} */
+
+
+/* fieldset{
+    width: 400px;
+    margin: 0 auto;
+}
+
+legend{
+    border: 1px solid red;
+    background-color: rgb(196, 189, 189);
+    padding: 6px 10px ;
+    text-align: left;
+
+} */
+
+table{
+    border-collapse: collapse;
+}
+
+.row1{
+    background-color: lightblue;
+}
+.row2, .row3 , .row4, .row5{
+    background-color: rgb(225, 237, 241);
+}
+
+
+td{
+    padding: 6px ;
+    border: 1px solid black;
+}
+
+fieldset{
+    margin: 20px 0px;
+    width: 300px;
+    padding: 20px;
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

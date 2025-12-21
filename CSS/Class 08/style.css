@@ -1,0 +1,45 @@
+.heading1{
+    text-align: center;
+    color: rgb(30, 136, 157);
+}
+.start a{
+    text-decoration: none;
+    color: white;
+}
+.start{
+    border: none;
+    background-color: rgb(54, 140, 238);
+    padding: 4px 15px;
+    border-radius: 15px;
+    
+}
+.start:hover{
+    background-color: rgb(35, 98, 152);
+    cursor: pointer;
+}
+.btnStart{
+    text-align: center;
+}
+fieldset{
+    width: 500px;
+    margin: 40px auto;
+}
+fieldset label{
+    line-height: 40px;
+}
+
+fieldset input{
+    border: none;
+    background-color: rgb(224, 221, 221);
+    padding: 5px;
+    border-radius: 15px;
+}
+fieldset input:focus{
+    outline: none;
+}
+.email{
+    margin-left: 30px;
+}
+.btnBnN{
+    margin-top: 20px;
+}

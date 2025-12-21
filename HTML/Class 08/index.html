@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table and Input!</title>
+</head>
+<body>
+
+
+<!-- 
+    <h1>Hello World!</h1>
+
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Address</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Ali</td>
+            <td>ali@gmail.com</td>
+            <td>Karachi</td>
+        </tr>
+        <tr>
+            <td>asdf@gmail.com</td>
+            <td>Karachi</td>
+        </tr>
+        <tr>
+            <td>Meer</td>
+            <td colspan="2">meer@gmail.com</td>
+        </tr>
+
+    </table>
+
+
+    <h1>Periodic Table!</h1>
+
+
+<table border="1">
+    <tr>
+        <td>1</td>
+        <td colspan="16"></td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td colspan="10"></td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td colspan="10"></td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+    </tr>
+</table>
+
+    <h1>Forms!</h1>
+
+    <input type="text"     />
+    <br>
+    <p>Text</p>
+    <input />
+
+    <br>
+    <p>Email</p>
+
+    <input type="email"> <br>
+
+    <p>Number</p>
+
+    <input type="number">
+
+
+    <p>Date</p>
+
+    <input type="date">
+
+    <p>Date and Time</p>
+
+    <input type="datetime-local">
+
+
+    <p>Comment Section</p>
+
+    <textarea></textarea>
+
+    <p>Gender</p>
+
+    <input type="radio">
+    <input type="radio">
+
+    <p>Hobbies</p>
+
+    <input type="checkbox">
+
+    <p>Select</p>
+
+    <select>
+        <option disabled selected >Select your City!</option>
+        <option >Karachi</option>
+        <option >Quetta</option>
+        <option >Lahore</option>
+        <option >Islamabad</option>
+        <option >Peshawar</option>
+    </select>
+
+
+    <p>Text</p>
+
+    <input type="text"  placeholder="Type your name"  >
+
+
+    <form action="./server.html" method="get">
+
+        <p>User Name:</p>
+        <input type="text" name="userName" id="" required>
+
+        <input type="submit" value="Press Button">
+
+
+
+
+    </form>
+
+
+    <p>Text</p>
+
+    <input type="text" maxlength="15" >
+
+<br><br>
+    <label for="email">
+        Email:
+        <input type="email" id="email">
+    </label><br><br>
+
+
+    <label for="">Gender</label>
+    <label for="male">
+        <input type="radio" name="gender" id="male">
+        Male
+    </label>
+    <label for="female">
+        <input type="radio" name="gender" id="female">
+        Female
+    </label> */ -->
+
+        
+
+
+    <h1>Personal Form!</h1>
+
+    <form action="./server.html" method="get">
+
+        <label for="fullName">
+            Full Name:
+            <input type="text" name="fullName" required
+             placeholder="Type your Full Name!" id="fullName">
+        </label><br><br>
+
+        <label for="email">
+            Email:
+            <input type="email" name="email" required
+            placeholder="Type your email" id="email"
+            >
+        </label><br><br>
+
+        <label for="password">
+            Password:
+            <input type="password" name="password" required id="password">
+        </label> <br><br>
+
+        <label>Gender</label>
+        <label for="male">
+            <input type="radio" name="gender" id="male" value="male">
+            Male
+        </label>
+        <label for="female">
+            <input type="radio" name="gender" id="female" value="female">
+            Female
+        </label><br><br>
+        <label >Hobbies</label>
+        <label for="sports">
+            <input type="checkbox" name="Hobbies" value="sports" id="sports">
+            Sports
+        </label>
+        <label for="reading">
+            <input type="checkbox" name="Hobbies" value="reading" id="reading">
+            Reading
+        </label>
+        <label for="cooking">
+            <input type="checkbox" name="Hobbies" value="cooking" id="cooking">
+            Cooking
+        </label>
+        <label for="singing">
+            <input type="checkbox" name="Hobbies" value="singing" id="singing">
+            Singing
+        </label> <br><br>
+
+        <label for="select">Select</label>
+        <select name="Course" id="select">
+            <option disabled selected >Select Your Course</option>
+            <option value="Modern Web and App">Modern Web and App</option>
+            <option value="Graphic Designing">Graphic Designing</option>
+            <option value="Animation">Animation</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit!">
+
+
+
+
+
+    </form>
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+</body>
+</html>

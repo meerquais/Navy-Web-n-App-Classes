@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+}
+
+
+h1{
+    color: red;
+}
+
+/* div{
+    background-color: red;
+    width: 300px;
+    width: 50%;
+    height: 300px;
+}
+.div1{
+    background-color: blue;
+    width: 50%;
+} */
+
+
+.box{
+    /* background-color: red; */
+    /* min-width: 300px; */
+    /* max-width: 400px; */
+    width: 400px;
+    /* min-height: 300px; */
+    max-height: 150px;
+    overflow: scroll;
+    /* border: 1px solid red; */
+    /* border-width: 10px;
+    border-style: solid;
+    border-color: blue; */
+
+    border: 3px double red;
+
+    /* margin-top: 10px; */
+    /* margin-left: 10px; */
+            /* top   right bottom left  */
+    /* margin: 10px 30px 40px 30px;  */
+
+    /* margin: 20px 60px; */
+    /* margin: 20px; */
+
+    margin: 0px auto;
+
+    padding: 5px 0px 5px 5px;
+    box-shadow: 10px -10px 15px 2px red;
+
+}
+
+.span1{
+    /* width: 500px; */
+    /* border: 1px solid red; */
+    /* display: none; */
+    /* visibility: hidden; */
+}

@@ -1,0 +1,61 @@
+/* .parent{
+     background-color: red; 
+     width: 400px;
+    height: 400px; 
+    display: flex;
+    color: green;
+} */
+
+/* .child{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+.child2{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+@media  */
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+}
+.menu ul{
+    display: flex;
+    gap: 2rem;
+}
+.menu ul li{
+    list-style: none;
+}
+
+
+.search{
+    border: 1px solid red;
+    position: relative;
+}
+.icon{
+    position: absolute;
+    top: 18px;
+    left: 25px;
+
+}
+
+
+
+
+
+@media screen and (max-width:486px){
+
+.menu{
+    display: none;
+}
+
+
+
+}

@@ -1,0 +1,103 @@
+/* .box1,.box2,.box3{
+    width: 400px;
+    height: 150px;
+}
+
+
+ .box1{
+    background-color: red;
+}
+
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: green;
+} */
+
+
+/* .parent{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-items: center;
+    height: 85vh;
+} */
+
+
+
+/*
+@media screen and (max-width: 360px){
+
+    .box1{
+        background-color: pink;
+    }
+
+    .box2{
+        background-color: blueviolet;
+    }
+    .box3{
+        background-color: lightgreen;
+    }
+
+
+}
+
+
+@media screen and (max-width:750px){
+
+
+    .box1{
+        width: 350px;
+        margin: 20px auto;
+    }
+
+
+
+} */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(240, 237, 237);
+}
+
+.parent{
+    position: relative;
+}
+
+.navBar{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 50px;
+    gap: 40px;
+}
+.links ul{
+    display: flex;
+    gap: 10px;
+}
+.links ul li{
+    list-style: none;
+}
+.links ul li a{
+    text-decoration: none;
+    color: black;
+}
+.links ul li a:hover{
+    color: rgb(154, 152, 152);
+}
+
+.icons {
+    display: flex;
+}

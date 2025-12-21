@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: rgb(239, 235, 235); */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    height: 50px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+.links ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.links ul li a:hover{
+    color: rgb(193, 191, 191);
+}
+
+.logo{
+    /* border: 1px solid red; */
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.section1{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    background-image: url("./assets/section1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.section1Content{
+    margin-bottom: 60px;
+}
+
+.section1Content h1{
+    font-size: 4rem;
+    text-align: center;
+}
+.section1Content p{
+    text-align: center;
+    font-size: 2rem;
+}
+.section1Btn{
+    text-align: center;
+    margin-top: 10px;
+}
+.section1Btn button{
+    border: none;
+    font-size: 1.5rem;
+    background-color: rgb(25, 138, 225);
+    color: white;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+
+
+.section2{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    background-image: url("./assets/section2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    color: white;
+}
+.section2Content{
+    margin-top: 2rem;
+}
+
+.section2Content h1{
+    font-size: 4rem;
+    text-align: center;
+}
+.section2Content p{
+    text-align: center;
+    font-size: 2rem;
+}
+.section2Btn{
+    text-align: center;
+    margin-top: 10px;
+}
+.section2Btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.section2Btn1{
+    border: none;
+    font-size: 1.5rem;
+    background-color: rgb(25, 138, 225);
+    color: white;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+button{
+    cursor: pointer;
+}
+
+.section2Btn2{
+     border: 1px solid  rgb(25, 138, 225);
+    font-size: 1.5rem;
+   color:rgb(25, 138, 225);
+    background-color: transparent;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+.section2Btn2:hover{
+    background-color:  rgb(25, 138, 225);
+    color: white;
+    cursor: pointer;
+}
+
+.section3{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    background-image: url("./assets/section3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    color: black;
+}
+.section3Content{
+    margin-top: 2rem;
+}
+
+.section3Content h1{
+    font-size: 4rem;
+    text-align: center;
+}
+.section3Content p{
+    text-align: center;
+    font-size: 2rem;
+}
+.section3Btn{
+    text-align: center;
+    margin-top: 10px;
+}
+.section3Btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.section3Btn1{
+    border: none;
+    font-size: 1.5rem;
+    background-color: rgb(25, 138, 225);
+    color: white;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+
+.section3Btn2{
+     border: 1px solid  rgb(25, 138, 225);
+    font-size: 1.5rem;
+   color:rgb(25, 138, 225);
+    background-color: transparent;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+.section3Btn2:hover{
+    background-color:  rgb(25, 138, 225);
+    color: white;
+    cursor: pointer;
+}
+
+.section4{
+    width: 100%;
+    margin: 10px 0px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.section4Content1{
+    width: 49%;
+    height: 600px;
+    /* background-color: red; */
+    background-image: url("./assets/section4.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.section4Content{
+    padding: 1.5rem 0px;
+    text-align: center;
+}
+.section4Content h1{
+    font-size: 2.5rem;
+}
+.section4Content p{
+    font-size: 1.3rem;
+}
+
+
+.section4Content2{
+    width: 49%;
+    background-color: blue;
+}

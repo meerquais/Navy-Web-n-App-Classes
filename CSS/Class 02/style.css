@@ -1,0 +1,28 @@
+/* *{
+    color: bisque;
+} */
+
+/* h1{
+    color: blue;
+}
+p{
+    color: red;
+} */
+
+
+.colorChange{
+    color: aqua;
+}
+
+#changeColor{
+    color: cadetblue;
+}
+
+
+div > h1{
+    color: red;
+}
+
+div h1{
+    color: blueviolet;
+}
