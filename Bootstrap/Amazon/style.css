@@ -1,0 +1,13 @@
+.height{
+    line-height: 0.5;
+}
+.height >p{
+    font-weight: bold;
+}
+
+.wtr:focus{
+    outline: none;
+}
+.todo{
+    background-color: orangered;
+}
