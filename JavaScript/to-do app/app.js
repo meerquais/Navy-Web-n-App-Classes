@@ -36,7 +36,25 @@ addBtn.addEventListener("click" , function(){
         return;
     }
 
-    tasks.push(task);
+    tasks.unshift(task);
     taskInput.value = "";
     renderTasks();
 })
+
+function editTask(index){
+    var updatedTask = prompt("Edit Your Task:" , tasks[index])
+    if(updatedTask !== null && updatedTask.trim() !== ""){
+        tasks[index] = updatedTask;
+        renderTasks();
+
+    }
+}
+
+function deleteTask(index){
+    tasks.splice(index,1);
+    renderTasks();
+}
+function clearAll(){
+    tasks = [];
+    renderTasks();
+}
